@@ -56,6 +56,10 @@ run_params['filterset'] = subaru + ultravista + spitzer[:2]
 verbose = False
 run_params["verbose"] = False
 
+#--------------------------------
+#UNCOMMENT PARAMETER WHICH YOU WISH TO PLOT
+#--------------------------------
+
 #var_param = 'mass'
 #label = r'$M$'
 #unit = r'$M_{\odot}$'
@@ -80,6 +84,9 @@ var = [0.2, 5.0, 10.0]
 #label = r'$\tau_{d}$'
 #unit = r'diffuse dust optical depth at 5500 angstroms'
 #var = [0.0, 0.6, 1.0]
+
+#------------------------------------------
+
 spec = []
 wave = []
 maximum = []
@@ -163,8 +170,6 @@ ymin_order = int(np.log10(abs(ymin)))
 ymax_order = np.ceil(np.log10(abs(ymax)))
 yt = (-np.logspace(0, ymin_order, abs(ymin_order + 1))).tolist() + [0.0]  + np.logspace(0, ymax_order, abs(ymax_order+1)).tolist()
 ylim([-10**ymin_order, 10**ymax_order])
-ylim([-10**1, 10**0])
-yt = [-10, -1, 0 , 1]
 yticks(yt, label = yt)
 xlabel(r'Wavelength [angstroms]')
 ylabel(r'$(F-F_{0})/F_{0}$')
