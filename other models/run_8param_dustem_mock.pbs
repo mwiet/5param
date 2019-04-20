@@ -1,0 +1,23 @@
+#PBS -l walltime=06:00:00
+#PBS -l select=1:ncpus=8:mem=48gb
+
+module load anaconda3/personal
+anaconada-setup
+
+#conda create -n py27 python=2.7
+#pip install emcee
+#git clone https://github.com/bd-j/sedpy
+#cd sedpy
+#python setup.py install
+#cd ..
+#git clone https://github.com/cconroy20/fsps.git
+#export SPS_HOME="/fsps"
+#cd fsps/src
+#make clean
+#make all
+#./simple.exe
+cd $PBS_O_WORKDIR
+export SPS_HOME="$HOME/p-a/fsps"
+
+source activate py27
+python prospector_8param_dustem_mock_run.py > log
