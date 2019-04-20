@@ -145,10 +145,10 @@ def pippi_format(filename, MPIrank=0):
 def lnmassmet(mass, met):
     from scipy.stats import truncnorm
     massmet = np.loadtxt('data/gallazzi_05_massmet.txt')
-    upper_84 = np.interp(mass, massmet[:,0], massmet[:,3]) 
-    lower_16 = np.interp(mass, massmet[:,0], massmet[:,2])
+    upper_84 = np.interp(np.log10(mass), massmet[:,0], massmet[:,3]) 
+    lower_16 = np.interp(np.log10(mass), massmet[:,0], massmet[:,2])
     scale = upper_84 - lower_16
-    loc = np.interp(mass, massmet[:,0], massmet[:,1])
+    loc = np.interp(np.log10(mass), massmet[:,0], massmet[:,1])
     a = (-2.0 - loc) / scale#float is the minimum of the logzsol prior
     b = (0.19 - loc) / scale #float is the maximum of the logzsol pripr
     p = truncnorm.pdf(met, a, b, loc=loc, scale=scale)
