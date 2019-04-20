@@ -23,7 +23,7 @@ python setup.py install
 ```
 pip install fsps
 ```
-Might have to define $SPS_HOME directory before generating a stellar population with:
+Might have to define $SPS_HOME directory before generating a stellar population:
 ```
 export SPS_HOME="$HOME/fsps"
 ```
