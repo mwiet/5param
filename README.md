@@ -49,6 +49,7 @@ pip install multiprocessing
 ```
 pip install corner
 ```
+- pippi: follow the instructions given in https://github.com/patscott/pippi (Note: pippi require ctioga2 which may not be possible to install on the ICL HPC)
 
 - numpy, scipy (*may have to be set back to v.0.18.1*), pandas, matplotlib
 
@@ -93,7 +94,13 @@ python plot_emcee.py [file_name].h5
 ```
 - prospector_sed_variations.py allows to make plot SEDs and the relative change in the SEDs for different variations of parameters.
 
+Pippi Scripts
+-------------
+The "pippi scripts" folder gives the .pip files which may be parsed into pippi in order to produce triangle plots from the .h5py files given in each run.
+
 Analysis Plots
 -------------
 The "analysis plots" folder contains Python scripts in order to compare and analyse large samples of parameter estimates produced by the model. In order to read the parameters, they require to be in the same directory as the .csv files produced by prospector[...]run.py or prospector[...]run_par.py files.
 Make sure that the file names defined in these scripts is the same as defined in the "outroot" parameter of the prospector[...]run.py or prospector[...]run_par.py files.
+
+
