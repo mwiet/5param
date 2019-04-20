@@ -55,7 +55,7 @@ pip install corner
 
 Individual Run on ICL HPC
 -------------
-To run only one object, specify the parameters of the galaxy in the prospector[...]run.py file. This can be run locally or submitted as a job to the Imperial College London HPC queue using:
+To run only one object, specify the parameters of the galaxy in the prospector[...]run.py file. This may be run locally or submitted as a job to the Imperial College London HPC queue using:
 ```
 qsub run_[...].pbs
 ```
@@ -103,4 +103,6 @@ Analysis Plots
 The "analysis plots" folder contains Python scripts in order to compare and analyse large samples of parameter estimates produced by the model. In order to read the parameters, they require to be in the same directory as the .csv files produced by prospector[...]run.py or prospector[...]run_par.py files.
 Make sure that the file names defined in these scripts is the same as defined in the "outroot" parameter of the prospector[...]run.py or prospector[...]run_par.py files.
 
-
+Other Models
+-------------
+The folder named "other models" contains some model and running scripts of different parameter sets implemented in prospector. These are only there for completeness and may be inconsistent with some the 5-parameter files in the main directory.
