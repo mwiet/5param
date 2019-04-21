@@ -105,4 +105,4 @@ Make sure that the file names defined in these scripts is the same as defined in
 
 Other Models
 -------------
-The folder named "other models" contains some model and running scripts of different parameter sets implemented in prospector. These are only there for completeness and may be inconsistent with some the 5-parameter files in the main directory.
+The folder named "other models" contains some model and running scripts of different parameter sets implemented in prospector. These are only there for completeness and may be inconsistent with some of the 5-parameter files in the main directory.
