@@ -1,0 +1,14 @@
+Stellar mass function (SMF) of galaxies in the COSMOS2015 catalog. 
+Please cite Davidzon et al. (2017, arXiv:1701.02734) if you use these estimates.
+For any inquiry: iarydavidzon@gmail.com
+
+file names:  mf_mass2b_fl5b_TYPE_METHOD[0-9].dat 
+             TYPE = tot|act|pas (for the total, active, passive sample)
+             METHOD = Vmax|VmaxFit2D  (for 1/Vmax points or the Schechter fit to them)
+             Suffix from 0 to 9 according to the z-bin (see the corresponding .info file)
+
+Cosmological parameters:  Omega_m,Omega_L,H0=0.30,0.70,70.0
+Initial mass function:  Chabrier (2003)
+Stellar population synthesis:  BC03 models
+
+NB: error bars include Poisson noise, cosmic variance, and random errors related to the SED fitting technique. 

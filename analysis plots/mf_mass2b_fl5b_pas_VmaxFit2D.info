@@ -1,0 +1,152 @@
+#######################################
+# Fit of schechter function           #
+#######################################
+
+
+
+###### General informations ###########
+# CONFIG FILE  : /home/idavidzon/CODES/lephare_200509/config/splash2_mass.para
+# INPUT INFO NO PARA FILE  : mf_mass2b_fl5b_pas_Vmax.info
+# OUTPUT FILE : mf_mass2b_fl5b_pas_VmaxFit2D
+# REDSHIFT BIN :
+#   Nbin,zmin,zmax : 1  0.200  0.500
+#   Nbin,zmin,zmax : 2  0.500  0.800
+#   Nbin,zmin,zmax : 3  0.800  1.100
+#   Nbin,zmin,zmax : 4  1.100  1.500
+#   Nbin,zmin,zmax : 5  1.500  2.000
+#   Nbin,zmin,zmax : 6  2.000  2.500
+#   Nbin,zmin,zmax : 7  2.500  3.000
+#   Nbin,zmin,zmax : 8  3.000  3.500
+#   Nbin,zmin,zmax : 9  3.500  4.000
+#   Nbin,zmin,zmax :10  4.000  6.000
+
+
+
+###### info per bin ###########
+
+#Bin index :  1
+#    Number of galaxies :        972
+#    bin (     0.2000     0.5000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :     -0.3889013501       0.3444144874      -0.1976395245
+#  alpha2  :     -1.3041964047       0.2564584217      -0.4341249169
+#  M*      :     10.8251453033       0.0662634781      -0.0815839992
+#  phi*1 *10^3 :      1.5835867119       0.1574316787      -0.2141909250
+#  phi*2 *10^3 :      0.0977505910       0.1769936588      -0.1769936588
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D0.dat
+###########
+
+#Bin index :  2
+#    Number of galaxies :       1279
+#    bin (     0.5000     0.8000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :     -0.2101440528       0.1393641419      -0.0941926149
+#  alpha2  :     -1.4578566694       0.3576489692      -0.4785101447
+#  M*      :     10.8335194727       0.0385546379      -0.0432587573
+#  phi*1 *10^3 :      1.4432104556       0.0772995833      -0.0802127057
+#  phi*2 *10^3 :      0.0121256286       0.0243580682      -0.0243580682
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D1.dat
+###########
+
+#Bin index :  3
+#    Number of galaxies :       1833
+#    bin (     0.8000     1.1000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :     -0.0736707299       0.0414219970      -0.0399720585
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.7460266176       0.0208826792      -0.0210128929
+#  phi*1 *10^3 :      1.7243122855       0.0587932295      -0.0596697448
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D2.dat
+###########
+
+#Bin index :  4
+#    Number of galaxies :       1184
+#    bin (     1.1000     1.5000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :      0.5325014451       0.0812884161      -0.0761442231
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.5619848255       0.0281876330      -0.0284704717
+#  phi*1 *10^3 :      0.7570016766       0.0233522851      -0.0235500923
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D3.dat
+###########
+
+#Bin index :  5
+#    Number of galaxies :        633
+#    bin (     1.5000     2.0000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :      0.9303261215       0.1312068159      -0.1172639724
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.5386592672       0.0310727858      -0.0325077616
+#  phi*1 *10^3 :      0.2510245861       0.0150225649      -0.0169147481
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D4.dat
+###########
+
+#Bin index :  6
+#    Number of galaxies :        159
+#    bin (     2.0000     2.5000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :      0.1731447937       0.1852670008      -0.1636676127
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.6914348437       0.0706490594      -0.0718923725
+#  phi*1 *10^3 :      0.0680313212       0.0063122703      -0.0067227775
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D5.dat
+###########
+
+#Bin index :  7
+#    Number of galaxies :         89
+#    bin (     2.5000     3.0000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :      1.1537945557       0.6260672630      -0.5015618628
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.2365026701       0.1106068398      -0.1129871299
+#  phi*1 *10^3 :      0.0282302428       0.0074686589      -0.0104443720
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D6.dat
+###########
+
+#Bin index :  8
+#    Number of galaxies :         28
+#    bin (     3.0000     3.5000   )
+#    M bin size :       0.10
+#  Parameter of schechter function values 
+#  para  :   value        error+       error-
+#  alpha1  :      1.1500000000       0.0000000000       0.0000000000
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.1032339560       0.0971587676      -0.0933308216
+#  phi*1 *10^3 :      0.0099206955       0.0019387210      -0.0019347453
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D7.dat
+###########
+
+#Bin index :  9
+#    Number of galaxies :         13                       
+#    bin (     3.5000     4.0000   )                       
+#    M bin size :       0.10                               
+#  Parameter of schechter function values                  
+#  para  :   value        error+       error-
+#  alpha1  :      1.1500000000       0.0000000000       0.0000000000
+#  alpha2  :     -1.0000000000       0.0000000000       0.0000000000
+#  M*      :     10.1000000000       0.0000000000       0.0000000000
+#  phi*1 *10^3 :      0.0041152174       0.0013744359      -0.0013744359
+#  phi*2 *10^3 :      0.0000047682       0.0000000000       0.0000000000
+#   Output file : mf_mass2b_fl5b_pas_VmaxFit2D8.dat
+###########
+

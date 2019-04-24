@@ -1,0 +1,129 @@
+##############################################
+Informations about : Vmax
+##############################################
+
+#Parameters File : olivier.para
+#Input file (M+zs) : LIMITS/limit_Ks-cut24.7_deeppure.out
+#Librairy (mag+kcorr) : BC03_FINAL_SCOSMOS 
+#Filter file : filter_cosmosmass.dat
+
+#Cosmology (H0,om0,l0) :  70.000  0.300  0.700
+#Solid angle (arcmin^2) :     1661.800
+
+#Selected type :                         (template min :      0 ; template max :    100)
+#Reference filter    :  2
+#Redshift bins : 
+          num, zmin, zmax : 1  0.200  0.500
+          num, zmin, zmax : 2  0.500  0.800
+          num, zmin, zmax : 3  0.800  1.100
+          num, zmin, zmax : 4  1.100  1.500
+          num, zmin, zmax : 5  1.500  2.000
+          num, zmin, zmax : 6  2.000  2.500
+          num, zmin, zmax : 7  2.500  3.000
+          num, zmin, zmax : 8  3.000  3.500
+          num, zmin, zmax : 9  3.500  4.000
+
+
+##########
+RESULTS 
+##########
+
+bin ( 0.200 0.500 )
+Number of galaxies :       972
+Apparent magnitude range: 25.000 15.000  in band 14, <z>= 0.377
+M faint :   11.8111
+M bright :    8.6000
+M Bias :    8.0019
+M bin number : 17 ; M bin size :    0.1889
+Output file : mf_mass2b_fl5b_pas_Vmax0.dat 
+
+------------------------
+
+bin ( 0.500 0.800 )
+Number of galaxies :      1279
+Apparent magnitude range: 25.000 15.000  in band 14, <z>= 0.671
+M faint :   11.8022
+M bright :    8.6370
+M Bias :    8.6370
+M bin number : 16 ; M bin size :    0.1978
+Output file : mf_mass2b_fl5b_pas_Vmax1.dat 
+
+------------------------
+
+bin ( 0.800 1.100 )
+Number of galaxies :      1833
+Apparent magnitude range: 25.000 15.000  in band 14, <z>= 0.912
+M faint :   11.6290
+M bright :    9.0318
+M Bias :    9.0318
+M bin number : 14 ; M bin size :    0.1855
+Output file : mf_mass2b_fl5b_pas_Vmax2.dat 
+
+------------------------
+
+bin ( 1.100 1.500 )
+Number of galaxies :      1184
+Apparent magnitude range: 25.000 15.000  in band 14, <z>= 1.240
+M faint :   11.8006
+M bright :    9.0095
+M Bias :    9.0095
+M bin number : 14 ; M bin size :    0.1994
+Output file : mf_mass2b_fl5b_pas_Vmax3.dat 
+
+------------------------
+
+bin ( 1.500 2.000 )
+Number of galaxies :       633
+Apparent magnitude range: 25.000 15.000  in band 14, <z>= 1.663
+M faint :   11.6041
+M bright :    9.2285
+M Bias :    9.2285
+M bin number : 12 ; M bin size :    0.1980
+Output file : mf_mass2b_fl5b_pas_Vmax4.dat 
+
+------------------------
+
+bin ( 2.000 2.500 )
+Number of galaxies :       159
+Apparent magnitude range: 25.000 15.000  in band 14, <z>= 2.292
+M faint :   11.8057
+M bright :    9.4740
+M Bias :    9.4740
+M bin number : 12 ; M bin size :    0.1943
+Output file : mf_mass2b_fl5b_pas_Vmax5.dat 
+
+------------------------
+
+bin ( 2.500 3.000 )
+Number of galaxies :        89
+Apparent magnitude range: 25.000 18.500  in band 28, <z>= 2.666
+M faint :   11.3727
+M bright :    9.7000
+M Bias :    9.5493
+M bin number :  8 ; M bin size :    0.2091
+Output file : mf_mass2b_fl5b_pas_Vmax6.dat 
+
+------------------------
+
+bin ( 3.000 3.500 )
+Number of galaxies :        28
+Apparent magnitude range: 25.000 18.500  in band 28, <z>= 3.204
+M faint :   11.0351
+M bright :    9.8289
+M Bias :    9.8289
+M bin number :  5 ; M bin size :    0.2412
+Output file : mf_mass2b_fl5b_pas_Vmax7.dat 
+
+------------------------
+
+bin ( 3.500 4.000 )
+Number of galaxies :        13
+Apparent magnitude range: 25.000 18.500  in band 28, <z>= 3.738
+M faint :   11.3540
+M bright :   10.0619
+M Bias :   10.0619
+M bin number :  4 ; M bin size :    0.3230
+Output file : mf_mass2b_fl5b_pas_Vmax8.dat 
+
+------------------------
+
