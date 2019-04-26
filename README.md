@@ -51,7 +51,7 @@ pip install corner
 ```
 - pippi: follow the instructions given in https://github.com/patscott/pippi (Note: pippi requires ctioga2 which may not be possible to install on the ICL HPC)
 
-- numpy, scipy (*may have to be set back to v.0.18.1*), pandas, matplotlib
+- numpy, scipy (*may have to be set back to v.0.19*), pandas, matplotlib
 
 Individual Run on ICL HPC
 -------------
