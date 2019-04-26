@@ -101,7 +101,10 @@ The "pippi scripts" folder gives the .pip files which may be parsed into pippi i
 Analysis Plots
 -------------
 The "analysis plots" folder contains Python scripts in order to compare and analyse large samples of parameter estimates produced by the model. In order to read the parameters, they require to be in the same directory as the .csv files produced by prospector[...]run.py or prospector[...]run_par.py files.
+
 Make sure that the file names defined in these scripts is the same as defined in the "outroot" parameter of the prospector[...]run.py or prospector[...]run_par.py files.
+
+This folder also contains the .dat files including the Galaxy Stellar Mass Estimates from Davidzon et al., 2017, which can be graphed with the plot_mass_obs.py script.
 
 Other Models
 -------------
